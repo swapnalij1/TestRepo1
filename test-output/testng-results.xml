@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-16T20:18:28 IST" name="Suite" finished-at="2020-10-16T20:19:27 IST" duration-ms="59240">
+    <groups>
+    </groups>
+    <test started-at="2020-10-16T20:18:28 IST" name="chrometest" finished-at="2020-10-16T20:19:17 IST" duration-ms="48587">
+      <class name="Practice.test2">
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:Practice.test2@6fe7aac8]" started-at="2020-10-16T20:18:28 IST" name="init" finished-at="2020-10-16T20:18:37 IST" duration-ms="8571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="test1()[pri:0, instance:Practice.test2@6fe7aac8]" started-at="2020-10-16T20:18:37 IST" name="test1" finished-at="2020-10-16T20:19:17 IST" duration-ms="39959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- Practice.test2 -->
+    </test> <!-- chrometest -->
+    <test started-at="2020-10-16T20:18:28 IST" name="edgetest" finished-at="2020-10-16T20:19:27 IST" duration-ms="59240">
+      <class name="Practice.test2">
+        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:Practice.test2@7e0b85f9]" started-at="2020-10-16T20:18:28 IST" name="init" finished-at="2020-10-16T20:18:39 IST" duration-ms="11197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="test1()[pri:0, instance:Practice.test2@7e0b85f9]" started-at="2020-10-16T20:18:39 IST" name="test1" finished-at="2020-10-16T20:19:27 IST" duration-ms="48026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- Practice.test2 -->
+    </test> <!-- edgetest -->
+  </suite> <!-- Suite -->
+</testng-results>
